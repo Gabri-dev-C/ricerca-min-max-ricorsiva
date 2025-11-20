@@ -1,27 +1,25 @@
 ![C++](https://img.shields.io/badge/C++-Recursion-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
+![Learning](https://img.shields.io/badge/Learning-C++-orange)
 
-## Ricerca min e max ricorsiva
+## Recursive search min-max
 
 Implementazione ricorsiva dell'algoritmo di ricerca del valore minimo e 
 del valore massimo all'interno di un vettore.
 
 ## Componenti della ricorsione
-
 1. **Condizioni di terminazione:** `if(n <= 0)`
 2. **Istruzione di terminazione:** `return min` - `return max`
 3. **Passo di avvicinamento:** `n-1`
 4. **Chiamata ricorsiva:** `return ricerca_min(v, n-1, min)` - `return ricerca_min(v, n-1, min)`
 
 # Utilizzo
-
 1. Crea in Code::Blocks un nuovo progetto.
 2. Copia il codice sorgente.
 3. Compila ed esegui.
 
 # Codice sorgente
-
 ```cpp
 #include <iostream>
 
@@ -69,13 +67,10 @@ int ricerca_min(int v[], int n, int min){
 ```
 
 # Output
-
 ![Risultato della ricerca](immagini/cattura_1.PNG)
 
 # Autore
-
 Gabriele Henriet - [GitHub](https://github.com/Gabri-dev-C)
 
 # Licenza
-
 MIT License
