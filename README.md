@@ -3,7 +3,7 @@
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
 ![Learning](https://img.shields.io/badge/Learning-C++-orange)
 
-## Recursive search min-max
+# Recursive search min-max
 
 Implementazione ricorsiva dell'algoritmo di ricerca del valore minimo e 
 del valore massimo all'interno di un vettore.
@@ -14,12 +14,12 @@ del valore massimo all'interno di un vettore.
 3. **Passo di avvicinamento:** `n-1`
 4. **Chiamata ricorsiva:** `return ricerca_min(v, n-1, min)` - `return ricerca_min(v, n-1, min)`
 
-# Utilizzo
+## Utilizzo
 1. Crea in Code::Blocks un nuovo progetto.
 2. Copia il codice sorgente.
 3. Compila ed esegui.
 
-# Codice sorgente
+## Codice sorgente
 ```cpp
 #include <iostream>
 
@@ -66,11 +66,11 @@ int ricerca_min(int v[], int n, int min){
 }
 ```
 
-# Output
+## Output
 ![Risultato della ricerca](immagini/cattura_1.PNG)
 
-# Autore
+## Autore
 Gabriele Henriet - [GitHub](https://github.com/Gabri-dev-C)
 
-# Licenza
+## Licenza
 MIT License
